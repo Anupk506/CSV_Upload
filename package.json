@@ -4,8 +4,8 @@
   "description": "A web app to read csv files",
   "main": "index.js",
   "engines": {
-    "node": "16.15.0",
-    "npm": "8.5.5"
+    "node": "18.16.1",
+    "npm": "9.5.1"
   },
   "scripts": {
     "start": "nodemon index.js",
