@@ -5,6 +5,7 @@ const File = require("../models/csv");
 module.exports.home = async function(req, res) {
     try {
         let file = await File.find({});
+        console.log(file);
         return res.render('home', {
             files: file,
             title: "Home"
